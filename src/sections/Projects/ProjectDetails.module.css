@@ -1,0 +1,38 @@
+.projectContainer {
+    text-align: center;
+    padding: 50px;
+}
+
+.projectContainer img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.projectContainer h1 {
+    color: black;
+}
+
+.projectContainer p {
+    color: gray;
+    font-size: 18px;
+}
+
+.backButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.backButton:hover {
+    background-color: #0056b3;
+}
+
