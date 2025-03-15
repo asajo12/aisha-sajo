@@ -1,38 +1,55 @@
 .projectContainer {
-    text-align: center;
-    padding: 50px;
-}
-
-.projectContainer img {
-    width: 100%;
-    max-width: 600px;
+    padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.projectContainer h1 {
-    color: black;
-}
-
-.projectContainer p {
-    color: gray;
-    font-size: 18px;
-}
-
-.backButton {
-    margin-top: 20px;
-    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .blogContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .projectImage {
+    width: 100%;
+    max-width: 400px; /* Adjust size */
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .projectText {
     font-size: 16px;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .socialLinks a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: #007bff;
+  }
+  
+  .backButton {
+    margin-top: 20px;
+    padding: 10px 15px;
     background-color: #007bff;
+    color: white;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.backButton:hover {
-    background-color: #0056b3;
-}
-
+    border-radius: 5px;
+  }
+  

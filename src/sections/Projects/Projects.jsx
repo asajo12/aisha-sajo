@@ -4,25 +4,41 @@ import styles from "./Projects.module.css";
 const projects = [
   {
     id: 1,
-    title: "Project One",
-    description: "A cool project about web development.",
-    image: "/assets/project1.jpg", // Replace with actual image path
+    title: "Emory FSA",
+    description: "Leadership: Event Coodinator, Senior Advisory Board",
     link: "/projects/1",
   },
   {
+    id: 3,
+    title: "PROJECT Emory",
+    description: "Leadership: Project Coodinator",
+    link: "/projects/3",
+  },
+  {
     id: 2,
-    title: "Project Two",
-    description: "An AI-based project using Python.",
-    image: "/assets/project2.jpg",
+    title: "Asian Health Alliance",
+    description: "Leadership: Event Coodinator",
     link: "/projects/2",
   },
   {
-    id: 3,
-    title: "Project Three",
-    description: "A mobile app built with React Native.",
-    image: "/assets/project3.jpg",
-    link: "/projects/3",
+    id: 4,
+    title: "AI's Influence on the Job Market",
+    description: "Project",
+    link: "/projects/4",
   },
+  {
+    id: 5,
+    title: "Bed, Bath, and Beyond Basic",
+    description: "Project",
+    link: "/projects/5",
+  },
+  {
+    id: 6,
+    title: "Arrythmia: Horror, Rhythm Game",
+    description: "Project",
+    link: "/projects/6",
+  },
+  
 ];
 
 function Projects() {
@@ -32,7 +48,6 @@ function Projects() {
       <div className={styles.projectList}>
         {projects.map((project) => (
           <Link to={project.link} key={project.id} className={styles.projectCard}>
-            <img src={project.image} alt={project.title} />
             <h2>{project.title}</h2>
             <p>{project.description}</p>
           </Link>
